@@ -69,6 +69,7 @@ the following is for Unix systems (mac), windows may have slight differences
 
 go to http://localhost:4000/ in your browser and you should see the following
 
-![running server](images/running-server.png)
+![running server](../images/running-server.png)
 
 Congratulations! you've made your very own Node.js Server!
+
