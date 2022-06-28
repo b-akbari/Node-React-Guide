@@ -18,7 +18,7 @@
  ### Node
 1. [Getting started](/node/get-started/get-started.md#how-to-import)
 
- 2. [modules and packages](/node/modules-packages/modules#modules-packages)
+ 2. [modules and packages](/node/modules-packages/modules.md#modules-packages)
 
  ### React
 
