@@ -1,11 +1,12 @@
 # Modules and Packages
-* [what is a module?](/node/modules-packages/modules#whatModule)
+* [What is a Package?](#whatModule)
 
-- [How to import a module](/node/modules-packages/modules#how-to-import)
+- [How to import a module](#how-to-import)
 
-- [How to import an object](/node/modules-packages/modules#how-to-import-objects)
+- [How to import an object](#how-to-import-objects)
 
-- [How to import a function](/node/modules-packages/modules#how-to-import-functions)
+- [How to import a function](#how-to-import-functions)
+
 ---
 
 <h2 id='whatModule'> what are packages?</h2>
@@ -19,6 +20,7 @@ We can make our own blocks of code and import them from other files or use the m
 These packages have a JSON file usually with the name, version number license etc of the package.
 
 ---
+
 <h2 id='how-to-import'>How to import a module</h2>
 
 A copy of these modules can be imported using the ***require*** function which we used to import the HTTP package in the previous section:
@@ -36,6 +38,8 @@ in your terminal, within the modules-packages folder of this repository, enter "
 
 ![running server](../images/exporting-literal.png)
 
+---
+
 <h2 id='how-to-import-objects'>How to import an object</h2>
 i made a seperate script file called 'exportObject.js
 
@@ -49,7 +53,7 @@ i made a seperate script file called 'exportObject.js
 
 ![running server](../images/exporting-object.png)
 
-
+---
 
 <h2 id='how-to-import-functions'>How to import a function</h2>
 
