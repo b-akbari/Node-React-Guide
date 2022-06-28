@@ -26,7 +26,7 @@ These packages have a JSON file usually with the name, version number license et
 where are we importing the module? 
 in most cases it would be an app.js or index.js file. There is an app.js file within this folder if you want a quick example. 
 
->the modules can be imported using the ***require*** function   
+the modules can be imported using the ***require*** function   
     which we used to import the HTTP package in the previous section:
 
     const http = require('http');
@@ -34,11 +34,11 @@ in most cases it would be an app.js or index.js file. There is an app.js file wi
 
 - You can create your own modules and increase the complexity much more later on, but for now i will give a simple example using a string literal.
 
->*A simple JS module "exportStringLiteral.js"*
+*A simple JS module "exportStringLiteral.js"*
 
         module.exports = 'whats up coders?';
 
->now we import the module into the app.js file using the ***require*** function from within app.js.
+now we import the module into the app.js file using the ***require*** function from within app.js.
 
     const simpleScript= require('./exportStringLiteral')
 
@@ -97,3 +97,5 @@ to import the function we follow the same process in app.js
     const functionScript= require('./exportFunction')
     functionScript.myFunction('is this thing working?')
 
+---
+All of these modules can be imported into the app.js file at once. Just imagine the exponential complexity that an application can develop having various modular scripts and packages working together!
