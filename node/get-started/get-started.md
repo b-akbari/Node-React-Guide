@@ -1,4 +1,4 @@
-# getting started with Node.JS
+<h1 id='get-started'>getting started with Node.JS</h1>
 Full stack includes client side and server side, the client side being the front end of the application can be coded with React, while server side would be coded in a back end language like Java, python, or Node.JS # *which we will be focusing on now*
 
 - The front end and back end communicate using JSON Payloads.

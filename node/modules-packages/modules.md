@@ -1,5 +1,6 @@
-# Modules and Packages
-* [What is a Package?](#whatModule)
+<h1 id='modules-packages'> Modules and Packages</h1>
+
+- [What is a Package?](#whatModule)
 
 - [How to import a module](#how-to-import)
 
