@@ -3,6 +3,9 @@
 
 - [How to import a module](/node/modules-packages/modules#how-to-import)
 
+- [How to import an object](/node/modules-packages/modules#how-to-import-objects)
+
+- [How to import a function](/node/modules-packages/modules#how-to-import-functions)
 ---
 
 <h2 id='whatModule'> what are packages?</h2>
@@ -24,16 +27,17 @@ A copy of these modules can be imported using the ***require*** function which w
 
 You can create your own modules and increase the complexity much more later on, but for now i will give a simple example.
 
-iv created a simple JS file "myScript.js"
+iv created a simple JS file "exportStringLiteral.js"
 
     module.exports = 'whats up coders?';
 
 ## Lets test it out!
-in your terminal, within the modules-packages folder of this repository, enter "node app.js" this will console.log the string literal from our "myScript.js" file. 
+in your terminal, within the modules-packages folder of this repository, enter "node app.js" this will console.log the string literal from our "exportStringLiteral.js" file. 
 
 ![running server](../images/exporting-literal.png)
 
-## how about objects?
+<h2 id='how-to-import-objects'>How to import an object</h2>
+i made a seperate script file called 'exportObject.js
 
     exports.favoriteFruit= 'mango'
 
@@ -42,6 +46,23 @@ in your terminal, within the modules-packages folder of this repository, enter "
 
  * The key value pairs are being added on to the exports object.
 
-uncomment lines 6-8 and try running the node again!
 
 ![running server](../images/exporting-object.png)
+
+
+
+<h2 id='how-to-import-functions'>How to import a function</h2>
+
+this is a simple function which just console logs the input
+
+    module.exports.myFunction = function (message){
+        console.log('my function:',message)
+    };    
+
+*same process as the other imports, we just treat it like a function in the app.js file.*
+
+    //exporting function
+    const functionScript= require('./exportFunction')
+    functionScript.myFunction('is this thing working?')
+
+now make your own changes and try exporting your own scripts! 

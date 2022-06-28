@@ -1,8 +1,14 @@
 
-// const simpleScript= require('./myScript')
+//exporting string literal
+const simpleScript= require('./exportStringLiteral')
 
-// console.log(simpleScript)
+console.log('simple Script:', simpleScript)
 
-const biggerScript=require('./ExportObject')
+//exporting object
+const objectScript=require('./exportObject')
 
-console.log(biggerScript)
+console.log('object Script:', objectScript)
+
+//exporting function
+const functionScript= require('./exportFunction')
+functionScript.myFunction('is this thing working?')
