@@ -18,3 +18,30 @@ These packages have a JSON file usually with the name, version number license et
 ---
 <h2 id='how-to-import'>How to import a module</h2>
 
+A copy of these modules can be imported using the ***require*** function which we used to import the HTTP package in the previous section:
+
+    const http = require('http');
+
+You can create your own modules and increase the complexity much more later on, but for now i will give a simple example.
+
+iv created a simple JS file "myScript.js"
+
+    module.exports = 'whats up coders?';
+
+## Lets test it out!
+in your terminal, within the modules-packages folder of this repository, enter "node app.js" this will console.log the string literal from our "myScript.js" file. 
+
+![running server](../images/exporting-literal.png)
+
+## how about objects?
+
+    exports.favoriteFruit= 'mango'
+
+    module.exports.favoriteDay='friday'
+* Above you see the shorthand and below is the full code of what is happening.
+
+ * The key value pairs are being added on to the exports object.
+
+uncomment lines 6-8 and try running the node again!
+
+![running server](../images/exporting-object.png)
